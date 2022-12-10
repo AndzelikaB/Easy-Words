@@ -1,22 +1,53 @@
-.ml-5 {
-  margin-left: 5px;
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-.mt-5 {
-  margin-top: 5px;
+.badge {
+  cursor: pointer;
+  display: inline-block;
+  float: none;
 }
 
-.done {
-  color: silver;
-  text-decoration: line-through;
+.banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
 }
 
-input[type='date'].disabled::-webkit-inner-spin-button {
-  display: none;
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding: 30px 0 20px 0;
 }
 
-.content {
-  overflow: auto;
-  height: 500px;
-  max-height: 500px;
+.colors {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.horizontalRev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.verticalRev {
+  display: flex;
+  flex-direction: column-reverse;
 }

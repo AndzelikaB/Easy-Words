@@ -1,0 +1,59 @@
+.redText{
+  color: red;
+}
+
+.greenText{
+  color: green;
+}
+.blueText{
+  color: blue;
+}
+
+.textBlue{
+  color: blue;
+}
+
+.pinkText{
+  color: pink;
+}
+
+.pink-color {
+  color:pink;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.top {
+  border-top: 3px solid lightblue;
+}
+
+.right {
+  border-right: 3px solid lightblue;
+}
+
+.bottom {
+  border-bottom: 3px solid lightblue;
+}
+
+.left {
+  border-left: 3px solid lightblue;
+}
+
+.bonus {
+  background: lightblue;
+}
+
+.isPrimary{
+  background: rgb(164, 164, 222);
+}
+
+li{
+  cursor: pointer;
+}
+
+.red{
+  background-color: red;
+}
+
