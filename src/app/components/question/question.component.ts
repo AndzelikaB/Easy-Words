@@ -9,9 +9,6 @@ import { WordsService } from 'src/app/services/words.service';
 })
 export class QuestionComponent implements OnInit {
   word: WordType = null;
-  // word: WordType | null | undefined;
-  // word!: WordType | null; //?
-
   constructor(private wordsService: WordsService) {}
 
   ngOnInit(): void {
