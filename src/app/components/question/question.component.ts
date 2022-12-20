@@ -33,6 +33,6 @@ export class QuestionComponent implements OnInit {
   }
 
   private fetchWord(): void {
-    this.word = this.wordsService.getWords().shift(); //pobiera pierwszy element z listy i usuwa go z tej listy
+    this.word = this.wordsService.getWords().shift();
   }
 }

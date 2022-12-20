@@ -35,7 +35,6 @@ export class WordsService {
   }
 
   check() {
-    // this.nouns.map((word) => (word.correct = word.type === Type.NOUN));
     this.nouns.map(function (word) {
       word.correct = word.type === Type.NOUN;
     });
