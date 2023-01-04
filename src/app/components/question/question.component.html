@@ -1,20 +1,20 @@
 <div class="row center">
-    <div class="col s12">
-        <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-                <h2> {{word ? word.word : 'The End!'}}</h2>
-            </div>
-            <div class="card-action">
-                <button class="btn-large blue m5" (click)="addToNouns(word)" *ngIf="word">
-                    Noun
-                </button>
-                <button class="btn-large blue" (click)="addToVerbs(word)" *ngIf="word">
-                    Verb
-                </button>
-                <button class="btn-large black" (click)="check()" *ngIf="!word">
+  <div class="col s12">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <h2> {{word ? word.word : 'The End!'}}</h2>
+      </div>
+      <div class="card-action">
+        <button class="btn-large blue m5" (click)="addToNouns(word)" *ngIf="word">
+          Noun
+        </button>
+        <button class="btn-large blue" (click)="addToVerbs(word)" *ngIf="word">
+          Verb
+        </button>
+        <!-- <button class="btn-large black" (click)="check()" *ngIf="!word">
                     Check It!
-                </button>
-            </div>
-        </div>
+                </button> -->
+      </div>
     </div>
+  </div>
 </div>
